@@ -1,0 +1,160 @@
+html {
+  height: 100%;
+  width: 100%;
+  scroll-behavior: smooth;
+}
+header#comece_aqui {
+  position: relative;
+  top: 0;
+  width: 100%;
+  z-index: 999 
+}
+
+
+#resumodiv{
+  color: black;
+}
+h1{
+  text-align: center;
+  background-color: #1414b8;
+  font-family: 'Comic Sans MS';
+  color:white;
+}
+nav ul{
+  text-align: center;
+  padding: 0;
+}
+nav ul li {
+  display:inline-block;
+  font-size: 20px;
+  width: 15%;
+  text-align: center;
+}
+nav ul li a{
+  text-decoration: none;
+  color: black;
+}
+nav ul li:not(:last-child){
+  margin-right:25px
+}
+.divimagem{
+  position: relative;
+  text-align: center;
+  width: 100vw
+}
+.divimagem img{
+  width:100vw;
+}
+.divtexto{
+  position: absolute;
+  top: 80%;
+  left:25%;
+  padding: 10px;
+}
+h2{
+  font-family: sans-serif;
+  font-size: 50px;
+  color:black;
+}
+@keyframes mudar_cor{
+  0%{background-color: white;}
+  25%{background-color: orangered;}
+  50%{background-color: indianred;}
+  100%{background-color: white;}
+}
+
+.imagem{
+  background-image: url(plano.jpg);
+  height: 600px;
+}
+.sectiondois{
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  background-image: url(plano.jpg);
+
+}
+.textosectiondois{
+  margin-left: 18px;
+  line-height: 1.6;
+}
+.fotocodeimg{
+  width:25%  
+}
+.sectiontres{
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  align-items: center;
+  text-align: center;
+  background-image: url(plano.jpg);
+  height: 500px
+
+}
+.separator{
+  border-top: 2px solid;
+  margin-top: 5px;
+
+}
+.separator_primeiro{
+  border-top: 2px solid;
+  margin-top: 5px;
+}
+h2, #meusite{
+  color: white;
+}
+h3,#mywork_head{
+  font-size: 30px;
+  font-weight: bold;
+}
+.ultimoseparator{
+border-top: 2px solid;
+margin-top: 5px;
+}
+.sectionquatro{
+  animation: mudar_cor 200s ;
+}
+a,.divtextoquatro{
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+
+}
+a[href*="linkedin"]:hover {
+  color:blue
+}
+a[href*="instagram"]:hover {
+  color:purple
+}a[href*="mailto"]:hover {
+  color:red
+}a[href*="wa.me"]:hover {
+  color:green
+}a[href*="github"]:hover {
+  color: grey
+}
+
+h4{
+  font-size: 50px;
+}
+.infnetimagem{
+  width: 10vw;
+}
+.tituloinfnet h4{
+  margin:0px
+
+
+}
+.imageminfnet{
+  width:350px
+}
+.textoinfnet{
+  font-size: 20px
+}
+.ultimoseparatordevdd{
+border-top: 2px solid;
+margin-top: 5px;
+}
